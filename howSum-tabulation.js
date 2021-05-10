@@ -3,9 +3,9 @@ const howSum = (targetSum, numbers) => {
   const tavle = Array(targetSum + 1).fill(null);
   table[0] = [];
   
-  for (let i = 0; i <= targetSum; i++){
+  for (let i = 0; i <= targetSum; i++){ // m times
     if (table[i] !== null){
-      for (let num of numbers){
+      for (let num of numbers){ // n times
         table[i + num] = [...table[i], num];
       }
     }
