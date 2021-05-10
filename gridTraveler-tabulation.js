@@ -15,8 +15,8 @@ for (let i = 0; i <= m; i++){
 return table[m][n];
 }
 
-console.log(gridTraveler(1,1));
-console.log(gridTraveler(2,3));
-console.log(gridTraveler(3,3));
-console.log(gridTraveler(4,3));
-console.log(gridTraveler(18,18));
+console.log(gridTraveler(1,1)); // 1
+console.log(gridTraveler(2,3)); // 3
+console.log(gridTraveler(3,3)); // 6
+console.log(gridTraveler(4,3)); // 10
+console.log(gridTraveler(18,18)); // 2333606220
